@@ -137,22 +137,22 @@ let s1 = function (sketch) {
     sketch.push();
     sketch.textSize(20);
     sketch.fill("black");
-    sketch.textAlign(sketch.CENTER);
-    sketch.text("y: Sea-Level", boxSize - 15, 325);
+    sketch.textAlign(sketch.LEFT);
+    sketch.text("y: Sea-Level", boxSize + 5, 345);
     sketch.pop();
 
     sketch.push();
     sketch.textSize(20);
     sketch.fill("black");
-    sketch.textAlign(sketch.CENTER);
-    sketch.text("x: Year", boxSize - 15, 347);
+    sketch.textAlign(sketch.LEFT);
+    sketch.text("x: Year", boxSize + 5, 367);
     sketch.pop();
 
     sketch.push();
     sketch.textSize(20);
     sketch.fill("black");
-    sketch.textAlign(sketch.CENTER);
-    sketch.text("z: Month", boxSize - 15, 370);
+    sketch.textAlign(sketch.LEFT);
+    sketch.text("z: Month", boxSize + 5, 390);
     sketch.pop();
   };
 };
