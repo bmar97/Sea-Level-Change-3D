@@ -138,14 +138,14 @@ let s1 = function (sketch) {
     sketch.textSize(20);
     sketch.fill("black");
     sketch.textAlign(sketch.CENTER);
-    sketch.text("y: Sea-Level", boxSize - 15, 310);
+    sketch.text("y: Sea-Level", boxSize - 15, 325);
     sketch.pop();
 
     sketch.push();
     sketch.textSize(20);
     sketch.fill("black");
     sketch.textAlign(sketch.CENTER);
-    sketch.text("x: Year", boxSize - 15, 330);
+    sketch.text("x: Year", boxSize - 15, 347);
     sketch.pop();
 
     sketch.push();
