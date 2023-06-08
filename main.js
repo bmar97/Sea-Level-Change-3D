@@ -145,7 +145,14 @@ let s1 = function (sketch) {
     sketch.textSize(20);
     sketch.fill("black");
     sketch.textAlign(sketch.CENTER);
-    sketch.text("x: Year", boxSize + 275, 665);
+    sketch.text("x: Year", boxSize - 15, 340);
+    sketch.pop();
+
+    sketch.push();
+    sketch.textSize(20);
+    sketch.fill("black");
+    sketch.textAlign(sketch.CENTER);
+    sketch.text("z: Month", boxSize - 15, 360);
     sketch.pop();
   };
 };
