@@ -82,10 +82,10 @@ let s1 = function (sketch) {
       //datapoints
       let size = sketch.map(gsml[i], -3.5, 79.5, 5, 20);
       sketch.strokeWeight(size);
-      if(sketch.floor(i/12) === selectRow){
-        sketch.stroke("red")
-      }else{
-        sketch.stroke("blue")
+      if (sketch.floor(i / 12) === selectRow) {
+        sketch.stroke("red");
+      } else {
+        sketch.stroke("blue");
       }
       sketch.point(x, y, z);
 
@@ -134,19 +134,19 @@ let s1 = function (sketch) {
   };
   sketch.axis = function () {
     // axislabels
-      sketch.push();
-      sketch.textSize(20);
-      sketch.fill("black");
-      sketch.textAlign(sketch.CENTER);
-      sketch.text("y: Sea-Level", boxSize+5, 335);
-      sketch.pop();
-    
-      sketch.push();
-      sketch.textSize(20);
-      sketch.fill("black");
-      sketch.textAlign(sketch.CENTER);
-      sketch.text("x: Year", boxSize+290,680);
-      sketch.pop();
+    sketch.push();
+    sketch.textSize(20);
+    sketch.fill("black");
+    sketch.textAlign(sketch.CENTER);
+    sketch.text("y: Sea-Level", boxSize - 15, 320);
+    sketch.pop();
+
+    sketch.push();
+    sketch.textSize(20);
+    sketch.fill("black");
+    sketch.textAlign(sketch.CENTER);
+    sketch.text("x: Year", boxSize + 275, 665);
+    sketch.pop();
   };
 };
 
